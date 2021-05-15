@@ -39,6 +39,9 @@ public class WelcomeActivity extends AppCompatActivity {
                         case R.id.nav_canhan:
                             selectedFragment = new CaNhanFragment();
                             break;
+                        case  R.id.nav_tkb:
+                            selectedFragment = new TKBFragment();
+                            break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                             selectedFragment).commit();

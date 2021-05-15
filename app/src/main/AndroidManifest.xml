@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Thoikhoabieu"></activity>
+        <activity android:name=".Bangdiem" />
+        <activity android:name=".Khaosat" />
+        <activity android:name=".Monhoc" />
         <activity
             android:name=".HocPhan"
             android:label="@string/title_activity_hoc_phan"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".QuenMK" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".MainActivity">
